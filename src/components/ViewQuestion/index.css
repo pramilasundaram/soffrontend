@@ -1,0 +1,73 @@
+.main-desc {
+  display: flex;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.info > p {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+}
+
+.info > p > span {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 5px;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.all-options > .MuiSvgIcon-root {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: large;
+  margin: 5px 0;
+}
+
+button {
+  max-width: fit-content;
+  margin: 10px 0px; 
+}
+
+
+button:hover {
+  background-color: #053086;
+}
+pre {
+  display: flex;
+  width: 90px;
+  flex-wrap: wrap;
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  width:90%;
+  margin-left: auto;
+}
+.comment{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  padding:5px 0;
+  border-bottom:1px solid #eee;
+}
+.comment >p{
+  margin: 10px 0;
+
+}
+.comments>p:hover{
+cursor: pointer;
+  color:rgb(99, 145, 230)
+}
+.comment >p>span{
+padding :3px;
+background-color: rgb(126, 188, 234);
+color:#0d224d
+}
